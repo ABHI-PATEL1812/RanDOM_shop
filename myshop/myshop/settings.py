@@ -133,15 +133,15 @@ CART_SESSION_ID = 'cart'
 #email settilngs
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'abhipatel18121999@gmail.com'
-EMAIL_HOST_PASSWORD = '$11a82bh11i82$'
+EMAIL_HOST_USER = '<add-your-email>'
+EMAIL_HOST_PASSWORD = '<password>'
 EMAIL_PORT = 587
 
 
 #braintree payment settings
-BRAINTREE_MERCHANT_ID ='8kyhjxsn5hsttqdg'
-BRAINTREE_PUBLIC_KEY = '67b2p5tbh6tnfrvx'
-BRAINTREE_PRIVATE_KEY = 'b7ba099f1fe44d44fe0774f1d69b6508'
+BRAINTREE_MERCHANT_ID ='<add-merchant-id>'
+BRAINTREE_PUBLIC_KEY = '<add-public-key>'
+BRAINTREE_PRIVATE_KEY = '<add-private-key>'
 
 
 BRAINTREE_CONF = braintree.Configuration(
